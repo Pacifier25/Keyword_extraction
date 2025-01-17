@@ -57,6 +57,15 @@ Whether you're working on academic research, business reports, or casual content
 
 ---
 
+## 📂 Dataset
+
+The pre-trained models used in this app were built using a custom dataset. You can access the dataset via the following link:
+
+**[Dataset Download Link](https://drive.google.com/file/d/1d8q1bUiAgG32XIBaPddOOCPlShyj9R1b/view?usp=sharing)**
+
+
+---
+
 ## File Structure 📂
 
 ```
