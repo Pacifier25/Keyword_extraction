@@ -4,14 +4,14 @@ This is a web-based application built using Streamlit that allows users to extra
 
 ---
 
-## Features 🌟
+## 🚀 Features
 
-- **PDF Upload**: Upload PDF files and extract text for keyword analysis.
-- **Manual Text Input**: Paste or write your text directly into the app.
-- **Customizable Output**: Select the number of top keywords to extract.
-- **Confidence Scores**: Get confidence scores for extracted keywords as percentages.
-- **Downloadable Results**: Download extracted keywords and scores as a CSV file.
-- **Interactive UI**: Responsive design with an intuitive and easy-to-use interface.
+- **PDF Upload**: Extracts text from uploaded PDF files.
+- **Text Input**: Allows manual text entry for keyword extraction.
+- **Customizable Keyword Count**: Includes a slider in the sidebar, enabling users to select the number of keywords they wish to extract (from 1 to 20).
+- **Confidence Scores**: Displays keyword relevance as a percentage for better insights.
+- **Downloadable Results**: Provides the extracted keywords as a downloadable CSV file.
+- **Interactive UI**: Designed with Streamlit for an intuitive and responsive experience.
 
 ---
 
@@ -65,6 +65,7 @@ This is a web-based application built using Streamlit that allows users to extra
 ├── app.py                  # Main Streamlit application
 ├── vectorizer.pkl          # Pre-trained TF-IDF vectorizer
 ├── tfidf_transformer.pkl   # Pre-trained TF-IDF transformer
+├── keyword_extraction.ipynb # Jupyter Notebook for model training
 ├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ```
@@ -91,10 +92,12 @@ pip install -r requirements.txt
 ## Screenshots 📸
 
 ### Main Page
-![Main Page Screenshot](path_to_screenshot_main_page.png)
+![image](https://github.com/user-attachments/assets/106e4e5a-9713-4bc9-aa85-157a287b8d25)
+
 
 ### Extracted Keywords
-![Extracted Keywords Screenshot](path_to_screenshot_keywords.png)
+![image](https://github.com/user-attachments/assets/72dba38d-bed0-4781-ae2f-9cb99a07309c)
+
 
 ---
 
