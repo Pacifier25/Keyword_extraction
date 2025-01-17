@@ -74,7 +74,6 @@ The pre-trained models used in this app were built using a custom dataset. You c
 ├── vectorizer.pkl          # Pre-trained TF-IDF vectorizer
 ├── tfidf_transformer.pkl   # Pre-trained TF-IDF transformer
 ├── keyword_extraction.ipynb # Jupyter Notebook for model training
-├── requirements.txt        # Python dependencies
 ├── README.md               # Project documentation
 ```
 
